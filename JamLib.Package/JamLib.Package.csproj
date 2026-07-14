@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishProfile>win10-x64</PublishProfile>
+    <GenerateAppxPackageOnBuild>true</GenerateAppxPackageOnBuild>
+    <AppxPackage>true</AppxPackage>
+    <PackageCertificateThumbprint></PackageCertificateThumbprint>
+    <PackageCertificateKeyFile></PackageCertificateKeyFile>
+    <GenerateTestArtifacts>true</GenerateTestArtifacts>
+    <AppxPackageSigningEnabled>false</AppxPackageSigningEnabled>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\JamLib.Core\JamLib.Core.csproj" />
+  </ItemGroup>
+</Project>
